@@ -1,0 +1,92 @@
+[
+  {
+    "ContainingType": "WebApplication1.Controllers.PaymentController",
+    "Method": "CancelOrder",
+    "RelativePath": "Payment/{orderId}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.PaymentController",
+    "Method": "GetOrder",
+    "RelativePath": "Payment/{orderId}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "orderId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.PaymentController",
+    "Method": "ConfirmWebhook",
+    "RelativePath": "Payment/confirm-webhook",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "WebApplication1.Types.ConfirmWebhook",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.PaymentController",
+    "Method": "CreatePaymentLink",
+    "RelativePath": "Payment/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "WebApplication1.Types.CreatePaymentLinkRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.PaymentController",
+    "Method": "PayOSTransferHandler",
+    "RelativePath": "Payment/payos_transfer_handler",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "body",
+        "Type": "Net.payOS.Types.WebhookType",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WebApplication1.Controllers.PaymentController",
+    "Method": "TestFirestoreConnection",
+    "RelativePath": "Payment/test-firestore",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
